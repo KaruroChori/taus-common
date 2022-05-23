@@ -1,4 +1,5 @@
-Web-api interface for operations on the DB of a TAUS (Tauri Updater Server) instance.  
-Feature-wise it should be matching those commands provided by the CLI.  
+Internal package to share schemas amongst different components of taus.
+Do not import it directly unless you are trying to build a custom fork for a different DB layout.
 
-Not stable & under active development.
+## How to generate new DB schemas
+...

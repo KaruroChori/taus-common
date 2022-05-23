@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "name": "commons",
+  "version": "0.1",
+  "description": "Internal components for Tauri Updater Server and other related tools.",
+  "repository": "https://github.com/KaruroChori/taus-common",
+  "author": "karurochari",
+  "license": "MIT"
+}
