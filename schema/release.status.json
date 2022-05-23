@@ -1,0 +1,26 @@
+{
+  "$id": "https://schema.karurochari.com/taus/release.status.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "release.status",
+  "description": "Set the current status of a release",
+  "type": "object",
+  "oneOf" : [{
+      "required" : ["id"]
+    },{
+      "required" : ["label"]
+    }
+  ],
+  "required":["enabled"],
+  "properties":{
+    "label":{
+      "type": "string"
+    },
+    "id":{
+      "type": "number"
+    },
+    "enabled":{
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

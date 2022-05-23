@@ -1,0 +1,23 @@
+{
+  "$id": "https://schema.karurochari.com/taus/licence.add.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "licence.add",
+  "description": "Authorize a new licence",
+  "type": "object",
+  "required": ["secret"],
+  "properties":{
+    "secret":{
+      "type": "string"
+    },
+    "enabled":{
+      "type": "boolean"
+    },
+    "subs":{
+      "type": "array",
+      "items": {
+        "type" : "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

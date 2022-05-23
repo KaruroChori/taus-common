@@ -1,0 +1,11 @@
+{
+  "$id": "https://schema.karurochari.com/taus/arch.ls.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "arch.ls",
+  "description": "List all supported architectures",
+  "type": "object",
+  "required": [],
+  "properties":{
+  },
+  "additionalProperties": false
+}

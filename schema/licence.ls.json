@@ -1,0 +1,11 @@
+{
+  "$id": "https://schema.karurochari.com/taus/licence.ls.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "licence.ls",
+  "description": "List all supported licences",
+  "type": "object",
+  "required": [],
+  "properties":{
+  },
+  "additionalProperties": false
+}

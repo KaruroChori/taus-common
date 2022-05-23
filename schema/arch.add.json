@@ -1,0 +1,14 @@
+{
+  "$id": "https://schema.karurochari.com/taus/arch.add.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "arch.add",
+  "description": "Add a new supported architecture",
+  "type": "object",
+  "required": ["label"],
+  "properties":{
+    "label":{
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

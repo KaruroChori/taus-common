@@ -1,0 +1,22 @@
+{
+  "$id": "https://schema.karurochari.com/taus/arch.rm.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "arch.rm",
+  "description": "Remove a supported architecture",
+  "type": "object",
+  "oneOf" : [{
+      "required" : ["id"]
+    },{
+      "required" : ["label"]
+    }
+  ],
+  "properties":{
+    "label":{
+      "type": "string"
+    },
+    "id":{
+      "type": "number"
+    }
+  },
+  "additionalProperties": false
+}

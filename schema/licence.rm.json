@@ -1,0 +1,22 @@
+{
+  "$id": "https://schema.karurochari.com/taus/licence.rm.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "licence.rm",
+  "description": "Revoke a licence",
+  "type": "object",
+  "oneOf" : [{
+      "required" : ["id"]
+    },{
+      "required" : ["label"]
+    }
+  ],
+  "properties":{
+    "label":{
+      "type": "string"
+    },
+    "id":{
+      "type": "number"
+    }
+  },
+  "additionalProperties": false
+}

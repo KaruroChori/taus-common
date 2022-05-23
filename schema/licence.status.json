@@ -1,0 +1,26 @@
+{
+  "$id": "https://schema.karurochari.com/taus/licence.status.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "licence.status",
+  "description": "Set the current status of a licence",
+  "type": "object",
+  "oneOf" : [{
+      "required" : ["id"]
+    },{
+      "required" : ["label"]
+    }
+  ],
+  "required":["enabled"],
+  "properties":{
+    "label":{
+      "type": "string"
+    },
+    "id":{
+      "type": "number"
+    },
+    "enabled":{
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

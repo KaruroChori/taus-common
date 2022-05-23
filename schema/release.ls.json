@@ -1,0 +1,26 @@
+{
+  "$id": "https://schema.karurochari.com/taus/release.ls.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "release.ls",
+  "description": "List all supported releases",
+  "type": "object",
+  "required": [],
+  "properties":{
+    "channels":{
+      "type": "array",
+      "items":{
+        "type":"string"
+      }
+    },
+    "archs":{
+      "type": "array",
+      "items":{
+        "type":"string"
+      }
+    },
+    "limit":{
+      "type": "number"
+    }
+  },
+  "additionalProperties": false
+}

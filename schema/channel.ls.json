@@ -1,0 +1,11 @@
+{
+  "$id": "https://schema.karurochari.com/taus/channel.ls.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "channel.ls",
+  "description": "List all supported channels",
+  "type": "object",
+  "required": [],
+  "properties":{
+  },
+  "additionalProperties": false
+}

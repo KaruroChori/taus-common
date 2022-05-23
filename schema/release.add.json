@@ -1,0 +1,38 @@
+{
+  "$id": "https://schema.karurochari.com/taus/release.add.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "release.add",
+  "description": "Deploy a new release",
+  "type": "object",
+  "required": ["path","archs","channels"],
+  "properties":{
+    "path":{
+      "type": "string"
+    },
+    "archs":{
+      "type": "array",
+      "items": {
+      	"type": "string"
+      }
+    },
+    "channels":{
+      "type": "array",
+      "items": {
+      	"type": "string"
+      }
+    },
+    "version":{
+      "type": "number"
+    },
+    "notes":{
+      "type": "object"
+    },
+    "signature":{
+      "type": "string"
+    },
+    "enabled" : {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true
+}
