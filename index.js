@@ -1,4 +1,7 @@
 import { promises as fs } from 'fs';
+import initModels from "./db-schemas/init-models.js"
+import { Sequelize, Op, Model, DataTypes } from 'sequelize';
+
 
 let API = []
 
@@ -9,3 +12,8 @@ for(const f in files) {
 }
 
 console.log(API)
+
+export const tausCommon = {
+	apiSchemas: API,
+	dbSchemas: initModels
+}

@@ -1,10 +1,28 @@
 {
   "type": "module",
-  "name": "commons",
-  "version": "0.1",
+  "name": "@taus-services/commons",
+  "version": "0.0.1",
   "main": "index.js",
   "description": "Internal components for Tauri Updater Server and other related tools.",
-  "repository": "https://github.com/KaruroChori/taus-common",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaruroChori/taus-common.git"
+  },
   "author": "karurochari",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "sequelize": "^6.20.0"
+  },
+  "bugs": {
+    "url": "https://github.com/KaruroChori/taus-common/issues"
+  },
+  "homepage": "https://github.com/KaruroChori/taus-common#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
