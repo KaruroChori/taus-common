@@ -18,7 +18,4 @@ for(const f in files) {
 
 //console.log(API)
 
-export const tausCommon = {
-	apiSchemas: API,
-	dbSchemas: initModels
-}
+export {initModels as dbSchemas, API as apiSchemas }
