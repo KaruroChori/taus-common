@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@taus-services/commons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "description": "Internal components for Tauri Updater Server and other related tools.",
   "repository": {
