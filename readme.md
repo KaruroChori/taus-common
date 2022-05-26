@@ -1,4 +1,4 @@
-Package for internal use in order to share schemas amongst different components of taus.
+Internal package to share schemas across different components of taus.
 Do not import it directly unless you are trying to build a custom fork for a different DB layout, or to add new schemas for operations.
 
 ## How to generate new DB schemas
